@@ -11,6 +11,7 @@ class Load extends Phaser.Scene {
         // and use in any other scene
 
         // Load atlas here
+        this.load.atlas('link_atlas', 'linksheet.png', 'linkmap.json');
 
         this.load.image('talltrees', 'talltrees.png');
         this.load.image('ground', 'ground.png');
